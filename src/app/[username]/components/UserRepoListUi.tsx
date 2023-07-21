@@ -1,9 +1,8 @@
 'use client'
 
-import { FC, useEffect, useState } from "react";
+import { FC, useEffect } from "react";
 import { selectForkList } from "@/redux/features/forkList.selector";
 import { useAppDispatch, useAppSelector } from "@/redux/hooks";
-import UserRepoSort from "./userRepoSort";
 import { forkListActions } from "@/redux/features/forkList.slice";
 
 const UserRepoListUi: FC<{
